@@ -31,6 +31,7 @@ def mp(list_prior, n):
 
 
 #two head and eight tail
+#prior
 aList = [1/11, 1/11, 1/11, 1/11, 1/11, 1/11, 1/11, 1/11, 1/11, 1/11, 1/11]
 bList = [0.01, 0.01, 0.05, 0.08, 0.15, 0.4, 0.15, 0.08, 0.05, 0.01, 0.01]
 
@@ -133,8 +134,4 @@ plt.ylabel('probability')
 plt.xticks(np.arange(0, 1, step=0.1))
 
 plt.show()
-
-
-
-
 
